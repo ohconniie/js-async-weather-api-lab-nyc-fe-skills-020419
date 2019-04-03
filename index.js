@@ -28,7 +28,7 @@ function displayCurrentWeather(json) {
   low.innerHTML = json.main.temp_min
   high.innerHTML = json.main.temp_max
   humidity.innerHTML = json.main.humidity
-  cloudCover.innerHTML = json.cloud
+  cloudCover.innerHTML = json.clouds.all
   
 }
 
