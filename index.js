@@ -20,7 +20,8 @@ function displayCurrentWeather(json) {
   //render current weather data to the DOM using provided IDs and json from API
   // const currentTemp = json.main.temp
   const tempContainer = document.getElementById('temp')
-  tempContainer.innerHTML = json.main.temp
+  tempContainer.innerHTML = json.
+  const low = document.getElementById('low')
 }
 
 
