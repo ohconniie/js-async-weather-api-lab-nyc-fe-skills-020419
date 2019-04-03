@@ -26,7 +26,9 @@ function displayCurrentWeather(json) {
   const cloudCover = document.getElementById('cloudCover')
   
   low.innerHTML = json.main.temp_min
-  low.innerHTML = json.main.temp_max
+  high.innerHTML = json.main.temp_max
+  humidity.innerHTML = json.main.humidity
+  cloudCover.innerHTML = json.main.temp_max
   
 }
 
