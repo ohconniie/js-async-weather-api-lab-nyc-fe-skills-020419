@@ -49,8 +49,9 @@ function displayFiveDayForecast(json) {
    
    // document.createElement('div')
    // string approach
-   let devString = "<div> <p></p> <p></p> <p></p> </div>"
-
+   let devString = "<div> <p>" + forecast.main.temp_min + "</p>" +
+   "<p>" + forecast.main.temp_max + "</p>" +
+   "<p>" + forecast.dt_txt + "</p> </div>"
   }
 }
 
