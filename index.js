@@ -53,6 +53,7 @@ function displayFiveDayForecast(json) {
    "<p>" + forecast.dt_txt + "</p> </div>"
    startingString += divString
   }
+  console.log(startingString)
 }
    // document.createElement('div')
    // string approach
