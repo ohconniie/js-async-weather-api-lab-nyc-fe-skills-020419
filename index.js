@@ -48,7 +48,7 @@ function displayFiveDayForecast(json) {
   
   let startingString = ''
   for (let forecast of forecasts) {
-   let devString = "<div> <p>" + forecast.main.temp_min + "</p>" +
+   let divString = "<div> <p>" + forecast.main.temp_min + "</p>" +
    "<p>" + forecast.main.temp_max + "</p>" +
    "<p>" + forecast.dt_txt + "</p> </div>"
    startingString += divString
