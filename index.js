@@ -45,15 +45,17 @@ function displayFiveDayForecast(json) {
   //render five day forecast data to the DOM using provided IDs and json from API
   console.log(json)
   const forecasts = json.list
+  
+  let startingString = ''
   for (let forecast of forecasts) {
-   
-   // document.createElement('div')
-   // string approach
    let devString = "<div> <p>" + forecast.main.temp_min + "</p>" +
    "<p>" + forecast.main.temp_max + "</p>" +
    "<p>" + forecast.dt_txt + "</p> </div>"
+   startingString += divString
   }
 }
+   // document.createElement('div')
+   // string approach
 
 function createChart(json) {
   //Bonus: render temperature chart using five day forecast data and ChartJS
