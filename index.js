@@ -54,7 +54,8 @@ function displayFiveDayForecast(json) {
    startingString += divString
   }
   console.log(startingString)
-  const 
+  const aside = document.getElementById('five-days')
+  aside.innerHTML.startingString
 }
    // document.createElement('div')
    // string approach
