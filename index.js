@@ -49,8 +49,8 @@ function displayFiveDayForecast(json) {
    
    // document.createElement('div')
    // string approach
-   
-  "<li>li1</li><li2>li2</li2>"
+   let devString = "<div> <p></p> <p></p> <p></p> </div>"
+
   }
 }
 
